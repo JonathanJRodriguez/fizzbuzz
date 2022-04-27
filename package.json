@@ -4,7 +4,7 @@
   "description": "Refactoring project",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest"
+    "test": "node ./node_modules/.bin/jest"
   },
   "author": "JonathanJRodriguez",
   "license": "ISC",
