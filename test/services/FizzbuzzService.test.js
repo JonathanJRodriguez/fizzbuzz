@@ -3,7 +3,7 @@ const FizzbuzzService = require("../../lib/services/FizzbuzzService");
 describe("Unit tests for Fizzbuzz Service", () => {
     test("Use the Fizzbuzz Service", () => {
         const explorer1 = {name: "Explorer1", score: 1}
-        expect(FizzbuzzService.applyValidationInExplorer(explorer1)).toStrictEqual({name: "Explorer1", score: 1, trick: 2});
+        expect(FizzbuzzService.applyValidationInExplorer(explorer1)).toStrictEqual({name: "Explorer1", score: 1, trick: 1});
         const explorer3 = {name: "Explorer3", score: 3}
         expect(FizzbuzzService.applyValidationInExplorer(explorer3)).toStrictEqual({name: "Explorer3", score: 3, trick: "FIZZ"});
         const explorer5 = {name: "Explorer5", score: 5}
