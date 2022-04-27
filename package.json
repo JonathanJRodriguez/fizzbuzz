@@ -9,6 +9,7 @@
   "author": "JonathanJRodriguez",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^26.0.0"
   }
 }
