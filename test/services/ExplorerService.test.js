@@ -1,5 +1,5 @@
-const ExplorerService = require("../../lib/services/ExplorerService")
-const Reader = require("../../lib/utils/Reader")
+const ExplorerService = require("../../lib/services/ExplorerService");
+const Reader = require("../../lib/utils/Reader");
         
 
 describe("Unit tests for Explorer Service", () => {
@@ -8,5 +8,5 @@ describe("Unit tests for Explorer Service", () => {
         expect(ExplorerService.filterByMission(explorers, "node").length).toBe(10);
         expect(ExplorerService.getAmountOfExplorersByMission(explorers, "node")).toBe(10);
         expect(ExplorerService.getExplorersUsernamesByMission(explorers, "node").length).toBe(10);
-    })
-})
+    });
+});
